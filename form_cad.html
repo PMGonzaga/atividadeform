@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+  <p>FORMULÁRIO</p>
+
+<form action="formulario.php">
+  <label for="fname">Nome:</label><br>
+  <input type="text" id="nome" name="nome"><br>
+  <label for="fname">Telefone:</label><br>
+  <input type="Number" id="telefone" name="telefone"><br>
+  <label for="fname">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="lname">Qual Sua Data de Nascimento:</label><br>
+  <input type="date" id="data_nsc" name="dataNascimento">
+<br>
+
+<span>Gênero:</span><br>
+        <label for="inMasculino">Masculino:</label>
+        <input type="radio" name="genero" id="inMasculio" required value="Masculino"><br>
+        <label for="inFeminino">Feminino:</label>
+        <input type="radio" name="genero" id="inFeminino" required value="Feminino"><br>
+        <label for="inNaoInformar">Não informar:</label>
+        <input type="radio" name="genero" id="inNaoInformar" required value="Não informar"><br>
+
+  <input type="submit">
+</form>
+</body>
+</html>
